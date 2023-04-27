@@ -1,0 +1,1 @@
+//Construct a Binary Tree using the given array of Strings. If a node has an index i, its children (if any) are found at indices 2i+1 and 2i+2, while its parent (if any) is found atindex floor((i-1)/2). Index 0 contains the root node and value -1 indicates null here. The tree givenwas a family tree. Find out whether a given person X belong to that family or not?
