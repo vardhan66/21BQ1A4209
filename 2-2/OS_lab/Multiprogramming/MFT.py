@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 23 20:18:12 2023
-
-@author: kgnan
-"""
+#Fixed
 totalmem=int(input("enter total ammount of memory"))
 blocksize=int(input("enter the block size"))
 noofblocks=totalmem//blocksize
