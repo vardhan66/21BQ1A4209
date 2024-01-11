@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dnd2</title>
+    <link rel="stylesheet" href="dnd2.css">
+</head>
+<body>
+<center>
+    <h2>Drag and drop HTML5 demo</h2>
+    <div>Try to move purple box into the pink box.</div>
+    <div id="boxA"  DRAGGABLE="true" ONDRAGSTART="return dragStart()"><p>Drag me</p></div>
+    <div id="boxB" ondragenter=" return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">Dustbin</div>
+</center>
+<script src="dnd2.js"></script>
+</body>
+</html>

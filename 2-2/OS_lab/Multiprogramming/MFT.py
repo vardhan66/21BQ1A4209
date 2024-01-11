@@ -1,10 +1,10 @@
-#Fixed
+1#Fixed
 totalmem=int(input("enter total ammount of memory"))
 blocksize=int(input("enter the block size"))
 noofblocks=totalmem//blocksize
 print(noofblocks)
 ef=totalmem-(noofblocks*blocksize)
-#print(ef)
+print(ef)
 nop=int(input("enter the number of the processes"))
 processlist=[0]*nop
 for i in range(nop):
