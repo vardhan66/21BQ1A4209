@@ -1,6 +1,6 @@
 j1 = int(input("Enter the Capacity of Jug-1 in Liters: "))
 j2 = int(input("Enter the Capacity of Jug 2 in Liters: "))
-
+#kjb
 g = int(input("Enter the Required water in Jug-1:"))
 
 def apply_rule(ch, x, y):
@@ -12,7 +12,6 @@ def apply_rule(ch, x, y):
       else:
           print("Rule cannot be applied")
           return x,y
-
 
     # Rule 2:Fill jug 2
     elif ch == 2:
